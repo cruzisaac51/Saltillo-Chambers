@@ -82,9 +82,9 @@ const townApi = async (key, value, nameImage) => {
     }
   };
   
-  townApi("business", "Hero", "images/hero2.jpg");
-  townApi("business", "Torres", "images/torres2.jpg");
-  townApi("business", "Hunters Gotcha", "images/hunters.png");
+  townApi("business", "Hero", "../images/hero2.jpg");
+  townApi("business", "Torres", "../images/torres2.jpg");
+  townApi("business", "Hunters Gotcha", "../images/hunters.png");
 
 
 //Saltillo info
