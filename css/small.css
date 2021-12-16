@@ -1,0 +1,135 @@
+@media(max-width:480px) {
+    .contact-address {
+        display: flex;
+        align-items: stretch;
+        margin: 10px;
+        flex-direction: column;
+    }
+    .copyrights {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-name img {
+        width: 5em;
+        margin-left: 10px;
+    }
+    .prestonname {
+        display: none;
+    }
+    .prestonname1 {
+        display: block;
+    }
+    .contact-address {
+        display: flex;
+        align-items: stretch;
+        margin: 10px;
+        flex-direction: column;
+    }
+    .hero {
+        background-image: url(../images/saltillolarge2.jpg);
+        height: 12em;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .hero-title {
+        font-size: 2rem;
+    }
+    .content-hero{
+        display:block
+    }
+    .action, .action2, .action3{
+        top: 0;
+        display:block;
+        border-radius: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+    }
+    .action{
+        grid-row: 1;
+    }
+    .action2{
+        grid-row: 2;
+    }
+    .action3{
+        grid-row: 3;
+    }
+    .action ul{
+        display: none;
+    }
+    .action2 ul{
+        display: none;
+    }
+    .action3 ul{
+        display: none;
+    }
+    .weather{
+        display: flex;
+        align-items: center;
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .navigation {
+        list-style: none;
+        padding-right: 10px;
+        margin: 0;
+    }
+    .navigation li:first-child {
+        display: block;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .responsive li {
+        display: block;
+    }
+    .the-section .card {
+        margin-bottom:5px;
+        padding:5px;
+    }
+    .the-sectiondir .card {
+        margin-bottom:5px;
+        display: grid;
+        place-items: center;
+    }
+    .the-section h6{
+        display: none;
+    }
+    .the-sectiondir h6{
+        display: none;
+    }
+    .card img {
+        max-width: 350px;
+    }
+    .article-sec {
+        margin: 10px;
+        margin-bottom: 40px;
+        border-radius: 0px;
+        max-width: 100%;
+        height: auto;
+    }
+    .article-sec p{
+        margin: 10px;
+    }
+    .article-sec h3, h4 {
+        text-align: center;
+        color: var(--primary)
+      }
+      
+    .article-sec img {
+        margin: 5px 5px 5px 5em;
+        float: none;
+        width: 50%;
+    }
+    .weather li {
+        text-align: left;
+        font-size: large;
+    }
+}

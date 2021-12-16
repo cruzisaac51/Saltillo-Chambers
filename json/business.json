@@ -1,0 +1,88 @@
+{
+    "business": [
+      {
+        "name": "Torres",
+        "photo": "torres.jpg",
+        "motto": "Renta de sillas y mesas",
+        "contact": 8441023710,
+        "schedule": "8:30 - 20:30",
+        "events": [
+          "February 29: 20% off",
+          "May 1-6: 2x1",
+          "October 15-16: Octoberfest"
+        ]
+      },
+      {
+        "name": "Isaquito bebe",
+        "photo": "isaquito.jpg",
+        "motto": "Toda para tu bebe",
+        "contact": 8442180682,
+        "schedule": "10:30 - 20:30",
+        "events": [
+          "January 8: Spring into Winter",
+          "April 10-20: 10% off",
+          "July 31-Aug 15: 15% off"
+        ]
+      },
+      {
+        "name": "Hunters Gotcha",
+        "photo": "hunters.jpg",
+        "motto": "Feel the adrenaline, play gotcha",
+        "contact": 8442477106,
+        "schedule": "9:30 - 19:00",
+        "events": [
+          "March 1: Tournament",
+          "March 2: zombies",
+          "april 28: fight for Berlin"
+        ]
+      },
+      {
+        "name": "Hero",
+        "photo": "hero.jpg",
+        "motto": "Heroes con estilo",
+        "contact": 8443426306,
+        "schedule": "10:30 - 20:30",
+        "events": [
+          "March 4: March to the Drum of Donuts",
+          "September 5 - 11: Founder Days",
+          "December 1 - 26: Christmas in the Heart"
+        ]
+      },
+      {
+        "name": "Happy Boneless mx",
+        "photo": "happy.jpg",
+        "motto": "No podras dejar de comerlas",
+        "contact": 8445346975,
+        "schedule": "10:30 - 20:30",
+        "events": [
+          "February 10-12: Greenbration",
+          "May 8 - 18: Greenville Founder Days",
+          "June 20: Verde and Valiant Day",
+          "November 15-16: Greensome Gathering"
+        ]
+      },
+      {
+        "name": "legends of fitness",
+        "photo": "gym.jpg",
+        "motto": "Sport club.",
+        "contact": 8443058726,
+        "schedule": "5:30 - 12:30",
+        "events": [
+          "July 4: A Blaze of Glory",
+          "October 20: Fall through Fall"
+        ]
+      },
+      {
+        "name": "Dorcas Boutique",
+        "photo": "dorcas.jpg",
+        "motto": "Viste elegante viste en DORCAS",
+        "contact": 8442526935,
+        "schedule": "10:30 - 20:30",
+        "events": [
+          "March 29: Work Creek Revival",
+          "July 8-12: Napoleon Dynamite Festival",
+          "November 2-4: Freedom Days"
+        ]
+      }
+    ]
+  }

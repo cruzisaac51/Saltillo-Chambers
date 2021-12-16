@@ -1,0 +1,104 @@
+@media (min-width: 480px) and (max-width:75em) {
+    .copyrights {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 20px;
+    }
+    .logo-name img {
+        width: 9em;
+    }
+    .contact-address {
+        display: flex;
+        align-items: stretch;
+        margin: 10px;
+        flex-direction: column;
+    }
+    .contact-address ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 20px;
+    }
+    .hero{
+        background-image: url(../images/saltillolarge2.jpg)
+    }
+    .the-section {
+        grid-template-columns: 1fr 1fr;
+        padding: 50px;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--dark);
+    }
+    
+    .card:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    
+    .par-card .motto-card h2 {
+        display: block;
+    }
+    
+    .card img {
+        max-width: 250px;
+    }
+    .the-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 5em;
+        padding: 50px;
+    }
+    .the-section h6{
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+        margin: 0;
+        height: 3em;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+        padding-left: 5px;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .content-hero{
+        display:block
+    }
+    .hero{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .action{
+        border-radius: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        height:-webkit-fill-available;
+    }
+    .weather{
+        display: flex;
+        align-items: center;
+    }
+    .weather ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .weather li{
+        font-size:initial;
+    }
+}

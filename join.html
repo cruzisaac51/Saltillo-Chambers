@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join us</title>
+    <meta name="description" content="page to joun the Saltillo Chambers">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="http://font.googleapis.com" />
+    <link rel="stylesheet " href="css/style.css ">
+    <link rel="stylesheet " href="css/large.css ">
+    <link rel="stylesheet " href="css/medium.css ">
+    <link rel="stylesheet " href="css/small.css ">
+</head>
+
+<body>
+
+    <div class="banner" id="banner" style="display: none">
+        <p>
+            Christmas Village 26 Nov to 12 de Dec, 10:00AM to 10:00PM on the Feria Saltillo place.
+        </p>
+    </div>
+
+    <div class=" nav-bg">
+        <nav class="nav">
+            <header>
+                <div class="logo-name">
+                    <img src="../images/logosaltillochambers.png" alt="logo Saltillo Cahmbers">
+                </div>
+            </header>
+            <ul class="navigation">
+                <li>
+                    <a class="ham" href="#" onclick="toggleMenu()"> &#x2630; Menu </a>
+                </li>
+                <li><a href="index.html ">Home</a></li>
+                <li><a href="../saltillo.html"> Saltillo</a> </li>
+                <li><a href="../directory.html"> Directory</a></li>
+                <li><a href="../join.html" class="active">Join</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container shadow ">
+        <h2>New Member Registration - Saltillo Chambers</h2>
+        <main>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Membership application</legend>
+                    <label class="top">First name* <input type="text" name="fname" required></label>
+                    <label class="top">Last name* <input type="text" name="lname" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="example@example.com" required></label>
+                    <label class="top">CellPhone* <input type="tel" name="phone" placeholder="(+001)123456789" required></label>  
+                    <label class="top">Business name*<input type="text" name="bname" required></label>
+                    <label class="top">Business address <input type="text" name="badress"></label>    
+                    <label class="top">Business website <input type="url" name="bwebsite"></label>
+                    <label for="subject" class="top" id="textarealabel">Business description</label>
+                    <textarea id="subject" name="subject"></textarea>           
+                </fieldset>
+                <fieldset>
+                    <legend>Membership level</legend>
+                    <div class="radio">Annual fees</div>
+                    <label class="sbs"><input type="radio" name="audience" value="non">Non-profit ($100)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze ($200)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="silver">Silver ($400)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="gold">Gold ($1000)</label>
+                </fieldset>
+                <input type="submit" value="Register Now" class="submitBtn">
+            </form>  
+                  
+                
+            </main>
+            <footer>
+                <div class="social ">
+                    <div class="copyrights ">
+                        <p>
+                            &copy;
+                            <span id="dateyear"></span>|Isaac Cruz - WDD 230
+                            <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="11" r="3" />
+                            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                            </svg>Saltillo, MX</p>
+                            <p><a href="http://www.facebook.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                              </svg></a></p>
+                            <p><a href="http://www.instagram.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <rect x="4" y="4" width="16" height="16" rx="4" />
+                                <circle cx="12" cy="12" r="3" />
+                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                              </svg></a>
+                            </p>
+                        <br>
+                    </div>
+                    <div class="lastupdated">
+                        <span id="lastUpdated">
+                    </span>
+                    <script src="js/script.js"></script>
+                    </div>
+                </div>
+            </footer>
+    </div>
+</body>
+
+</html>

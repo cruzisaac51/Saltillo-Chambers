@@ -1,0 +1,74 @@
+@media only screen and (min-width: 75em) {
+    h1 {
+      font-size: 2.2rem;
+    }
+    .pinformation {
+      font-size: large;
+    }
+  
+    .card {
+      flex-direction: column;
+    }
+    .card img {
+        max-width: 350px;
+    }
+    .card:last-of-type{
+        grid-column-start: 1;
+        grid-column-end:4;
+        display: grid;
+        place-items: center;
+    }
+
+    .hero{
+        background-image: url(../images/saltillolarge2.jpg)
+
+    }
+    .the-section {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .the-section h2 {
+        font-family: "krub", sans-serif;
+        color: var(--bluedark) ;
+    }
+    .the-sectiondir {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.5em;
+    }
+    .article-sec{
+        height: 600px;
+    }
+    .article-sec img {
+        width: 20em;
+    }
+      
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+        margin: 0;
+        height: 3em;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+        padding-left: 15px;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .contact-address{
+        display: flex;
+        align-items: stretch;
+        margin: 10px;
+        flex-direction: column;
+    }
+}

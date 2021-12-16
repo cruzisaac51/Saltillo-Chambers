@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saltillo Chambers</title>
+    <meta name="description" content="home page saltillo chambers">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="http://font.googleapis.com" />
+    <link rel="stylesheet " href="css/style.css ">
+    <link rel="stylesheet " href="css/large.css ">
+    <link rel="stylesheet " href="css/medium.css ">
+    <link rel="stylesheet " href="css/small.css ">
+</head>
+
+<body>
+
+    <div class="banner" id="banner" style="display: none">
+        <p>
+            Christmas Village 26 Nov to 12 de Dec, 10:00AM to 10:00PM on the Feria Saltillo place.
+        </p>
+    </div>
+
+    <div class=" nav-bg">
+        <nav class="nav">
+            <header>
+                <div class="logo-name">
+                    <img src="../images/logosaltillochambers.png" alt="logo Saltillo Cahmbers">
+                </div>
+            </header>
+            <ul class="navigation">
+                <li>
+                    <a class="ham" href="#" onclick="toggleMenu()"> &#x2630; Menu </a>
+                </li>
+                <li><a href="index.html " class="active">Home</a></li>
+                <li><a href="../saltillo.html"> Saltillo</a> </li>
+                <li><a href="../directory.html"> Directory</a></li>
+                <li><a href="../join.html" >Join</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero ">
+        <div class="content-hero ">
+        </div>
+        <div class="action">
+            <div class="weather">
+                <h3> <a href="../saltillo.html">Saltillo Wheather</a></h3>
+                <img src="#" alt="#" id="icon">
+                <ul>
+                    <li>Currenly: <span id="current-temp-string"></span> </li>
+                    <li>High<span id="current-temp"></span>&deg; F</li>
+                    <li>Wind Chill:<span id="windchill"></span>°F</li>
+                    <li>Humidity:<span id="humidity"></span>%</li>
+                    <li>Wind speed:<span id="windSpeed"></span>mhp</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <main class="cards-container">
+            <h2 class="title">Local Business</h2>
+            <section class="the-section"><h6>.</h6></section>
+            <br>
+            <div class="cards-container">
+                <section class="the-sectionP"><h6>.</h6></section>
+            </div>
+            <br>
+        </main>
+        <br>
+            
+      
+            <article class="contact-address">
+                <header class="headerf">
+                    <h2>Why Join Saltillo Chambers?</h2>
+                    <p>Saltillo Chambers is an incentive and motivation to the local commerce in the Saltillo Mexico 
+                        Area allowing making them to grow as a community, as well as independently giving them publicity.</p>
+                </header>
+                <img src="images/logosaltillochambers.png" alt="logo Saltillo Chambers">
+                <section class="join-container">
+                    <a class="btnjoin" onclick="popupToggle()">Join us</a>
+                    <div id="popup">
+                        <div class="content">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                                <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                                <line x1="3" y1="19" x2="9" y2="13" />
+                                <line x1="15" y1="13" x2="21" y2="19" />
+                              </svg>
+                              <h2>Suscribe us</h2>
+                              <p>“Strength and growth come only through continuous effort and struggle." – Napoleon Hill</p>
+                            <form action="../join.html">
+                              <div class="inputbox">
+                                  <input type="email" placeholder="someonecool@example.com" required>
+                              </div>
+                              <div class="inputbox">
+                                    <input type="submit" name="email" value="Submit" class="btnjoin">
+                              </div>
+                            </form>
+                        </div>
+                        <a class="close" onclick="popupToggle()">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <rect x="4" y="4" width="16" height="16" rx="2" />
+                                <path d="M10 10l4 4m0 -4l-4 4" />
+                              </svg>
+                          </a>
+                    </div>
+                </section>
+            </article>
+          
+        <footer>
+            <div class="social ">
+                <div class="copyrights ">
+                    <p>
+                        &copy;
+                        <span id="dateyear"></span>|Isaac Cruz - WDD 230
+                        <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="11" r="3" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                        </svg>Saltillo, MX</p>
+                        <p><a href="http://www.facebook.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                          </svg></a></p>
+                        <p><a href="http://www.instagram.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                          </svg></a>
+                        </p>
+                    <br>
+                </div>
+                <div class="lastupdated">
+                    <span id="lastUpdated">
+                </span>
+                <script src="js/script.js"></script>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
