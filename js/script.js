@@ -32,7 +32,7 @@ function popupToggle(){
 }
 
 //Business info
-const thejsonurl = "../json/business.json";
+const thejsonurl = "json/business.json";
 
 const townApi = async (key, value, nameImage) => {
     try {
@@ -82,13 +82,13 @@ const townApi = async (key, value, nameImage) => {
     }
   };
   
-  townApi("business", "Hero", "../images/hero2.jpg");
-  townApi("business", "Torres", "../images/torres2.jpg");
-  townApi("business", "Hunters Gotcha", "../images/hunters.png");
+  townApi("business", "Hero", "images/hero2.jpg");
+  townApi("business", "Torres", "images/torres2.jpg");
+  townApi("business", "Hunters Gotcha", "images/hunters.png");
 
 
 //Saltillo info
-const thejsonurlPreston = "../json/eventssaltillo.json";
+const thejsonurlPreston = "json/eventssaltillo.json";
 
 const townApiP = async (key, value) => {
     try {
