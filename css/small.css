@@ -27,9 +27,10 @@
     }
     .contact-addresss {
         display: flex;
-        align-items: stretch;
+        align-items: center;
         margin: 10px;
         flex-direction: column;
+        padding-top: 10px;
     }
     .hero {
         background-image: url(../images/saltillolarge2.jpg);
