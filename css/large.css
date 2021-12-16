@@ -26,11 +26,12 @@
     .the-section {
         display: flex;
         flex-direction: row;
+        gap: 0.5em;
     }
     
     .the-section h2 {
         font-family: "krub", sans-serif;
-        color: var(--bluedark) ;
+        color: var(--white) ;
     }
     .the-sectiondir {
         display: grid;

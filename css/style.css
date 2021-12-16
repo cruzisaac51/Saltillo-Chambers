@@ -195,9 +195,7 @@ nav .active {
     margin: 0 auto;
     max-width: 1200px;
 }
-.container h2{
-    color: var(--dark)
-}
+
 .week {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -294,7 +292,7 @@ nav .active {
 
 }
 .content p, h2 {
-    color: var(--dark);
+    color: var(--white);
     margin: 0 0 15px 0;
     text-align: center;
 }
@@ -331,8 +329,9 @@ nav .active {
     align-items: center;
     padding: 10px;
 }
-.copyrights p{
+.copyrights p, a {
     color:var(--dark);
+    text-decoration:none;
 }
 
 .lastupdated {
@@ -382,11 +381,11 @@ nav .active {
     max-width:300px;
     margin: auto;
 }
-.card h2{
-    color: var(--bluedark);
+.card h1{
+    color: var(--white);
 }
 .par-card{
-    color: var(--primary)
+    font-weight: bold;
 }
 
 .article-sec {

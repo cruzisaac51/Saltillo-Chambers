@@ -44,7 +44,7 @@ const townApi = async (key, value, nameImage) => {
             //create elements
             const createCards = document.createElement("div");
             let cardinfo = document.createElement("div");
-            let titleh2 = document.createElement("h2");
+            let titleh2 = document.createElement("h1");
             let pinformation = document.createElement("p");
             let contact = document.createElement("p");
             let schedule = document.createElement("p");
