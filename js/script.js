@@ -82,9 +82,9 @@ const townApi = async (key, value, nameImage) => {
     }
   };
   
-  townApi("business", "Hero", "hero2.jpg");
-  townApi("business", "Torres", "torres2.jpg");
-  townApi("business", "Hunters Gotcha", "hunters.png");
+  townApi("business", "Hero", "images/hero2.jpg");
+  townApi("business", "Torres", "images/torres2.jpg");
+  townApi("business", "Hunters Gotcha", "images/hunters.png");
 
 
 //Saltillo info
@@ -234,7 +234,7 @@ const setStyles = () => {
 
 //Directory 
 
-const thejsonurldir = "../json/business.json";
+const thejsonurldir = "json/business.json";
 
 const townApidir = async (key, value, nameImage) => {
     try {
