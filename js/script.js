@@ -46,7 +46,7 @@ const townApi = async (key, value, nameImage) => {
             let cardinfo = document.createElement("div");
             let titleh2 = document.createElement("h2");
             let pinformation = document.createElement("p");
-            let businessType = document.createElement("p");
+            let contact = document.createElement("p");
             let schedule = document.createElement("p");
             let averageRainFall = document.createElement("p");
             let image = document.createElement("img");
@@ -54,21 +54,21 @@ const townApi = async (key, value, nameImage) => {
             //set attributes
             createCards.setAttribute("class", "card");
             pinformation.setAttribute("class", "motto-card");
-            businessType.setAttribute("class", "par-card");
+            contact.setAttribute("class", "par-card");
             schedule.setAttribute("class", "par-card");
             averageRainFall.setAttribute("class", "par-card");
 
             //insert elements
             titleh2.innerHTML = element.name;
             pinformation.innerHTML = element.motto;
-            businessType.innerHTML = `Business Type: ${element.businessType}`;
+            contact.innerHTML = `Telephone: ${element.contact}`;
             schedule.innerHTML = `Schedule: ${element.schedule}`;
             image.setAttribute("src", `images/${nameImage}`);
             image.setAttribute("alt", `${element.name}'s photo`);
             image.setAttribute("class", "card-photo");
             cardinfo.appendChild(titleh2);
             cardinfo.appendChild(pinformation);
-            cardinfo.appendChild(businessType);
+            cardinfo.appendChild(contact);
             cardinfo.appendChild(schedule);
             cardinfo.appendChild(averageRainFall);
             createCards.appendChild(cardinfo);
@@ -82,9 +82,9 @@ const townApi = async (key, value, nameImage) => {
     }
   };
   
-  townApi("business", "Hero", "../images/hero2.jpg");
-  townApi("business", "Torres", "../images/torres2.jpg");
-  townApi("business", "Hunters Gotcha", "../images/hunters.png");
+  townApi("business", "Hero", "images/hero2.jpg");
+  townApi("business", "Torres", "images/torres2.jpg");
+  townApi("business", "Hunters Gotcha", "images/hunters.png");
 
 
 //Saltillo info
