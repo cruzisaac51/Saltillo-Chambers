@@ -25,6 +25,12 @@
         margin: 10px;
         flex-direction: column;
     }
+    .contact-addresss {
+        display: flex;
+        align-items: stretch;
+        margin: 10px;
+        flex-direction: column;
+    }
     .hero {
         background-image: url(../images/saltillolarge2.jpg);
         height: 12em;
@@ -100,6 +106,9 @@
         place-items: center;
     }
     .the-section h6{
+        display: none;
+    }
+    .the-sectione h6{
         display: none;
     }
     .the-sectiondir h6{
