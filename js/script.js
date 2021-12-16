@@ -63,7 +63,7 @@ const townApi = async (key, value, nameImage) => {
             pinformation.innerHTML = element.motto;
             contact.innerHTML = `Telephone: ${element.contact}`;
             schedule.innerHTML = `Schedule: ${element.schedule}`;
-            image.setAttribute("src", `images/${nameImage}`);
+            image.setAttribute("src", `${nameImage}`);
             image.setAttribute("alt", `${element.name}'s photo`);
             image.setAttribute("class", "card-photo");
             cardinfo.appendChild(titleh2);
