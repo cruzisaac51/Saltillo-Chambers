@@ -375,6 +375,9 @@ nav .active {
 .the-sectiondir h6{
     display: none;
 }
+.the-sectione h6{
+    display: none;
+}
 .contact-address img {
     max-width:300px;
     margin: auto;
