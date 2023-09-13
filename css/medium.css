@@ -1,4 +1,4 @@
-@media (min-width: 480px) and (max-width:75em) {
+@media (min-width: 610px) and (max-width:75em) {
     .copyrights {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -80,6 +80,7 @@
     .hero{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
+        height: 15em;
     }
     .action{
         border-radius: 0;

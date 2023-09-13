@@ -1,4 +1,4 @@
-@media(max-width:480px) {
+@media(max-width:610px) {
     .contact-address {
         display: flex;
         align-items: stretch;
@@ -6,8 +6,12 @@
         flex-direction: column;
     }
     .copyrights {
+        justify-content: space-evenly;
+        align-items: end;
+    }
+    .copyrights p, a {
+        display: flex;
         flex-direction: column;
-        align-items: center;
     }
     .logo-name img {
         width: 5em;
@@ -34,9 +38,11 @@
     }
     .hero {
         background-image: url(../images/saltillolarge2.jpg);
-        height: 12em;
+        height: 25em;
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
+        background-size: cover;
+        background-position: center;
     }
     .hero-title {
         font-size: 2rem;
@@ -62,7 +68,9 @@
         grid-row: 3;
     }
     .action ul{
-        display: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 10px;
     }
     .action2 ul{
         display: none;
@@ -73,6 +81,11 @@
     .weather{
         display: flex;
         align-items: center;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .weather li {
+        color: var(--primary);
     }
     .nav {
         justify-content: space-between;
@@ -140,6 +153,14 @@
     }
     .weather li {
         text-align: left;
+        font-size: 1.2em;
+    }
+    .weather li:first-child {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .week p{
+        color: var(--white);
         font-size: large;
     }
 }

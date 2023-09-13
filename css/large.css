@@ -20,9 +20,14 @@
     }
 
     .hero{
-        background-image: url(../images/saltillolarge2.jpg)
+        background-image: url(../images/saltillolarge2.jpg);
+        display: flex;
+        justify-content: center;
 
     }
+    /* .weather img {
+        margin-left: 50%;
+    } */
     .the-section {
         display: flex;
         flex-direction: row;
