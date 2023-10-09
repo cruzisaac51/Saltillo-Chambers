@@ -1,4 +1,4 @@
-@media(max-width:610px) {
+@media(max-width:768px) {
     .contact-address {
         display: flex;
         align-items: stretch;
@@ -37,12 +37,14 @@
         padding-top: 10px;
     }
     .hero {
-        background-image: url(../images/saltillolarge2.jpg);
+        /* background-image: url(../images/saltillolarge2.jpg);
         height: 25em;
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         background-size: cover;
-        background-position: center;
+        background-position: center; */
+        background-color: white;
+        height: 115em;
     }
     .hero-title {
         font-size: 2rem;
@@ -52,7 +54,7 @@
     }
     .action, .action2, .action3{
         top: 0;
-        display:block;
+        display:none;
         border-radius: 0;
         left: 0;
         right: 0;
@@ -82,7 +84,6 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color: rgba(0,0,0,0.6);
     }
     .weather li {
         color: var(--primary);

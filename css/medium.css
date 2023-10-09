@@ -1,4 +1,4 @@
-@media (min-width: 610px) and (max-width:75em) {
+@media (min-width: 768px) and (max-width:75em) {
     .copyrights {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -19,7 +19,8 @@
         padding-left: 20px;
     }
     .hero{
-        background-image: url(../images/saltillolarge2.jpg)
+        /* background-image: url(../images/saltillolarge2.jpg); */
+        background-color: white;
     }
     .the-section {
         grid-template-columns: 1fr 1fr;
@@ -56,12 +57,10 @@
         display: none;
     }
     .navigation {
-        display: flex;
-        align-items: center;
-        align-content: space-between;
-        justify-content: space-between;
-        margin: 0;
-        height: 3em;
+        display: grid;
+        margin: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 5px;
     }
     .navigation li {
         display: block;
@@ -74,13 +73,16 @@
     .navigation li:first-child {
         display: none;
     }
-    .content-hero{
-        display:block
-    }
+    /*.content-hero{
+        display:none
+    }*/
     .hero{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-        height: 15em;
+        height: 55em;
+    }
+    #weather-widget{
+        height: 35em;
     }
     .action{
         border-radius: 0;

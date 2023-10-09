@@ -20,14 +20,18 @@
     }
 
     .hero{
-        background-image: url(../images/saltillolarge2.jpg);
+        /* background-image: url(../images/saltillolarge2.jpg);
         display: flex;
-        justify-content: center;
+        justify-content: center; */
+        background-color: white;
 
     }
     /* .weather img {
         margin-left: 50%;
     } */
+    #weather-widget{
+        height: 55em;
+    }
     .the-section {
         display: flex;
         flex-direction: row;
@@ -52,12 +56,10 @@
       
 
     .navigation {
-        display: flex;
-        align-items: center;
-        align-content: space-between;
-        justify-content: space-between;
-        margin: 0;
-        height: 3em;
+        display: grid;
+        margin: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 5px;
     }
     .navigation li {
         display: block;
