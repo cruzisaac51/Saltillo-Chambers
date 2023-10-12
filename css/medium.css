@@ -81,6 +81,11 @@
         grid-template-rows: 1fr 1fr 1fr;
         height: 65rem;
     }
+    .saltillohero{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 15rem;
+    }
     #weather-widget{
         height: 35em;
     }

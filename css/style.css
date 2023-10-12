@@ -196,6 +196,13 @@ nav .active {
     position: relative;
     background-image: url(../images/saltillolarge2.jpg);
 }
+.saltillohero{
+    background-size: 100% 14em;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    position: relative;
+    background-image: url(../images/saltillolarge2.jpg);
+}
 .hero-title{
     font-size:6rem;
     color: var(--white);
