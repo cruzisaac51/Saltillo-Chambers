@@ -79,7 +79,7 @@
     .hero{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-        height: 55em;
+        height: 65rem;
     }
     #weather-widget{
         height: 35em;
